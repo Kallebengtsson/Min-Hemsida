@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+  /*Detta gör så att min boarder blir svart med vit text*/
+.custom-border {
+    height: 100px; 
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  /*Detta gör så att texten i boarden blir vit*/
+.author-name {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+  /*Detta fixar storleken på bilderna*/
+.image-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    width: 100px;
+}
+  /*Detta har med bilderna att göra*/
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: #555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  .container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+  }
+  .meny {
+    grid-column-start: 1;
+    grid-column-end: 1;
+  }
+  .text {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    border: solid black 2px;
+  }
+
+  /*Jag har tagit hjälp av W3school och lite Youtube*/
+  
+
+
